@@ -4,6 +4,7 @@ MAINTAINER Larry Liang <ptolemy428@gmail.com>
 
 RUN mkdir /tmp/boto
 RUN cd /tmp/boto
+RUN apt-get install -y git
 RUN git clone https://github.com/boto/boto.git
 RUN cd /tmp/boto/boto
 RUN pwd
