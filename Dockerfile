@@ -1,5 +1,5 @@
 
-FROM python:2
+FROM ubuntu:15.04
 MAINTAINER Larry Liang <ptolemy428@gmail.com>
 
 RUN mkdir /tmp/boto
