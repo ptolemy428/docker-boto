@@ -1,5 +1,5 @@
 
-FROM python:2-onbuild
+FROM python:2
 MAINTAINER Larry Liang <ptolemy428@gmail.com>
 
 RUN mkdir /tmp/boto && cd /tmp/boto
